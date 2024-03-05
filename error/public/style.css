@@ -1,3 +1,42 @@
+@keyframes icon1 {
+  from {
+    top: 30%;
+    left: 30%;
+  }
+
+  to {
+    top: 80%;
+    left: 80%;
+  }
+}
+
+.top-icon-1 {
+  animation: 5s infinite alternate icon1;
+  top: 30%;
+  left: 30%;
+}
+.top-icon-2 {
+  top: 40%;
+  left: 40%;
+}
+.top-icon-3 {
+  top: 50%;
+  left: 50%;
+}
+.top-icon-4 {
+  top: 40%;
+  left: 60%;
+}
+.top-icon-5 {
+  top: 30%;
+  left: 70%;
+}
+.top-icon-6 {
+  width: 30px;
+  top: 70%;
+  left: 20%;
+}
+
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
