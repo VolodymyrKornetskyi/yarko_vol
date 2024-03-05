@@ -1,0 +1,27 @@
+.card-content-wrap{
+    width: 100%;
+}
+
+.logos-row{
+    display: flex;
+}
+
+.image-holder{
+    align-items: center;
+}
+
+.activity-img{
+    min-width: 100%;
+    margin: 15px;   
+    background-image: linear-gradient(green, red);
+    border-radius: 10px;
+}
+
+.card-logo{
+    max-height: 75px;
+    margin: 5px;
+}
+
+.location, .date{
+    font-size: 14px;
+}
