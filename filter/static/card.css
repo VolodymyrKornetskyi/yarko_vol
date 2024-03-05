@@ -1,3 +1,14 @@
+@media (max-width: 767px) {
+    .card-body .cal-logo {
+        width: 64px;
+    }
+}
+@media (max-width: 767px) {
+    .card-body .cal-loc {
+        width: 32px;
+    }
+}
+
 .card-content-wrap{
     width: 100%;
 }

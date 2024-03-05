@@ -1,3 +1,10 @@
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  background-color: rgb(189, 229, 193);
+  border-color: rgb(189, 229, 193);
+  color: rgb(47, 61, 70);
+}
+
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -331,14 +338,6 @@ nav {
   justify-content: center;
 }
 
-.cards{
-  flex-grow: 2;
-}
-
-.card{
-  margin: 0px 15px 15px 20px;
-}
-
 .footer{
   text-align: center;
   margin-top: 80px;
@@ -397,9 +396,4 @@ nav {
 
 .wrapper{
   width: 100%;
-}
-
-.cards{
-  align-items: center;
-  justify-content: center;
 }
