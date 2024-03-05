@@ -280,10 +280,6 @@ nav {
   justify-content: center;
 }
 
-.activity-image{
-  max-width: 100%;
-}
-
 .flexed{
   display: flex;
 }
@@ -455,11 +451,6 @@ nav {
   left: 41px;
 }
 /* CARD END */
-
-
-.content{
-  display: flex;
-}
 
 .heading{
   font-size: 65px;
